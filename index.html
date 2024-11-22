@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            text-align: right;
+            padding: 10px;
+        }
+        .search-container {
+            margin-top: 20%;
+        }
+        input[type="text"] {
+            width: 400px;
+            height: 40px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        input[type="submit"], button {
+            margin-top: 10px;
+            height: 40px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: #4285F4;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        button {
+            background-color: #34A853;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="./images.html">Images</a> |
+        <a href="./advanced.html">Advanced Search</a>
+    </nav>
+    <div class="search-container">
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" placeholder="Search Google">
+            <br>
+            <input type="submit" value="Google Search">
+            <button formaction="https://www.google.com/search?btnI=1" type="submit">I'm Feeling Lucky</button>
+        </form>
+    </div>
+</body>
+</html>
